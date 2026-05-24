@@ -1,44 +1,57 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta charset="UTF-8">
 <title>Andrew Scott — M.A.R.U</title>
 
 <style>
+
 body{
-background:#0d0d0d;
+background:linear-gradient(to bottom,#2b1600,#000);
 color:white;
-font-family:Arial;
-padding:40px;
+font-family:Arial,sans-serif;
+margin:0;
+padding:50px;
 }
 
-.card{
-background:#151515;
-border-radius:25px;
-padding:30px;
+.container{
 max-width:1100px;
 margin:auto;
-box-shadow:0 0 40px rgba(255,120,0,.25);
+background:#090909;
+padding:40px;
+border-radius:30px;
+box-shadow:0 0 50px rgba(255,140,0,.3);
 }
 
 h1{
 font-size:60px;
 text-align:center;
+margin:0;
 }
 
-.orange{
-color:#ff8c00;
+.subtitle{
+text-align:center;
+color:#ff9900;
+margin-bottom:40px;
 }
 
-img{
-border-radius:20px;
+.section{
+margin-top:30px;
 }
+
+.title{
+color:#ff9900;
+font-weight:bold;
+letter-spacing:3px;
+margin-bottom:15px;
+}
+
 </style>
-
 </head>
 
 <body>
 
-<div class="card">
+<div class="container">
 
 <center>
 
@@ -46,26 +59,24 @@ border-radius:20px;
 
 <h1>ANDREW SCOTT</h1>
 
-<p class="orange">
+<div class="subtitle">
 Candidature — Adjoint Responsable M.A.R.U 🏔️🚑
-</p>
+</div>
 
 </center>
 
-<hr>
+<div class="section">
 
-<h2 class="orange">INFORMATIONS</h2>
+<div class="title">
+INFORMATIONS
+</div>
 
 Nom : Scott<br>
 Prénom : Andrew<br>
 Âge : 26 ans<br>
 Ville : Los Santos
 
-<hr>
-
-<h2 class="orange">POURQUOI M.A.R.U ?</h2>
-
-Je suis une personne sérieuse, impliquée et investie...
+</div>
 
 </div>
 
