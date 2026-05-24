@@ -1,42 +1,37 @@
-<!DOCTYPE html>
-<html lang="fr">
+<html>
 
 <head>
-<meta charset="UTF-8">
-<title>Andrew Scott — M.A.R.U</title>
-
 <style>
 
 body{
 margin:0;
 padding:40px;
-background:#120900;
-font-family:Arial,sans-serif;
+font-family:Arial;
+background:linear-gradient(to bottom,#351700,#000);
 color:white;
-min-height:100vh;
 }
 
 .box{
 max-width:1100px;
 margin:auto;
-background:#0d0d0d;
-padding:35px;
+background:#050505;
+padding:30px;
 border-radius:30px;
-box-shadow:0 0 50px rgba(255,140,0,.35);
-}
-
-.header{
-text-align:center;
-margin-bottom:30px;
+box-shadow:0 0 40px rgba(255,140,0,0.6);
 }
 
 h1{
-font-size:65px;
+font-size:72px;
 margin:15px;
+text-align:center;
 }
 
 .orange{
-color:#ff9500;
+color:#ff9800;
+}
+
+.center{
+text-align:center;
 }
 
 hr{
@@ -44,59 +39,59 @@ border:1px solid #2a2a2a;
 margin:30px 0;
 }
 
-.flex{
+.grid{
 display:flex;
-gap:30px;
-align-items:flex-start;
+gap:20px;
 }
 
 .left{
 width:30%;
 }
 
-.photo{
+.left img{
 width:100%;
 border-radius:20px;
-border:2px solid #ff9500;
+border:2px solid orange;
 }
 
 .right{
 flex:1;
 }
 
-.info{
-margin-bottom:20px;
-line-height:1.8;
-}
-
-.badge{
-display:inline-block;
-background:#6e4200;
-padding:10px 15px;
-border-radius:999px;
-margin:5px;
-}
-
-.dispo{
-background:#1a1008;
-padding:12px;
-border-radius:12px;
+.row{
+background:#1a0d00;
+padding:14px;
+border-radius:10px;
 margin-bottom:10px;
 display:flex;
 justify-content:space-between;
 }
 
-</style>
+.badge{
+display:inline-block;
+padding:10px 18px;
+background:#9a5f00;
+border-radius:999px;
+margin:5px;
+}
 
+.footer{
+text-align:center;
+color:gray;
+margin-top:20px;
+font-size:13px;
+}
+
+</style>
 </head>
 
 <body>
 
 <div class="box">
 
-<div class="header">
+<div class="center">
 
-<img src="logo-maru.png.png" width="100">
+<img src="logo-maru.png.png" width="90">
 
 <h1>ANDREW SCOTT</h1>
 
@@ -108,11 +103,11 @@ Candidature — Adjoint Responsable M.A.R.U 🏔️🚑
 
 <hr>
 
-<div class="flex">
+<div class="grid">
 
 <div class="left">
 
-<img src="Andrew M.A.R.U.png" class="photo">
+<img src="Andrew M.A.R.U.png">
 
 </div>
 
@@ -120,25 +115,50 @@ Candidature — Adjoint Responsable M.A.R.U 🏔️🚑
 
 <h2 class="orange">INFORMATIONS</h2>
 
-<div class="info">
-
 Nom : Scott<br>
 Prénom : Andrew<br>
 Âge : 26 ans<br>
 Ville : Los Santos<br>
-Contact RP : XXXXXXX
+Poste visé : Adjoint Responsable M.A.R.U<br>
 
-</div>
+<br>
 
 <h2 class="orange">DISPONIBILITÉS</h2>
 
-<div class="dispo"><span>Lundi</span><span>18h00 — 01h00</span></div>
-<div class="dispo"><span>Mardi</span><span>18h00 — 01h00</span></div>
-<div class="dispo"><span>Mercredi</span><span>18h00 — 01h00</span></div>
-<div class="dispo"><span>Jeudi</span><span>18h00 — 01h00</span></div>
-<div class="dispo"><span>Vendredi</span><span>18h00 — 04h00</span></div>
-<div class="dispo"><span>Samedi</span><span>11h00 — 03h00</span></div>
-<div class="dispo"><span>Dimanche</span><span>11h00 — 03h00</span></div>
+<div class="row">
+Lundi
+<span>18h00 — 01h00</span>
+</div>
+
+<div class="row">
+Mardi
+<span>18h00 — 01h00</span>
+</div>
+
+<div class="row">
+Mercredi
+<span>18h00 — 01h00</span>
+</div>
+
+<div class="row">
+Jeudi
+<span>18h00 — 01h00</span>
+</div>
+
+<div class="row">
+Vendredi
+<span>18h00 — 04h00</span>
+</div>
+
+<div class="row">
+Samedi
+<span>11h00 — 03h00</span>
+</div>
+
+<div class="row">
+Dimanche
+<span>11h00 — 03h00</span>
+</div>
 
 <h2 class="orange">COMPÉTENCES</h2>
 
@@ -148,6 +168,7 @@ Contact RP : XXXXXXX
 <div class="badge">Organisation</div>
 <div class="badge">Sang-froid</div>
 <div class="badge">Esprit d'équipe</div>
+<div class="badge">Gestion d'interventions</div>
 
 </div>
 
@@ -155,17 +176,41 @@ Contact RP : XXXXXXX
 
 <hr>
 
-<h2 class="orange">POURQUOI M.A.R.U ?</h2>
+<h2 class="orange">POURQUOI LA M.A.R.U ?</h2>
 
-Je suis une personne sérieuse, impliquée et investie dans chaque responsabilité qu’on me confie. L’unité M.A.R.U représente une structure exigeante qui demande rigueur, organisation et esprit d’équipe.
+Je suis une personne sérieuse, investie et impliquée dans chaque responsabilité qui m'est confiée. L'unité M.A.R.U représente pour moi une structure exigeante demandant rigueur, organisation et esprit d’équipe.
 
-J’avais remarqué les précédentes ouvertures de postes sans avoir eu le temps de me présenter. Aujourd’hui je souhaite saisir cette opportunité et apporter mon investissement sur le long terme.
+J’avais remarqué les précédentes ouvertures de postes sans avoir eu l’occasion de me présenter. Aujourd’hui, je souhaite saisir cette opportunité afin d’apporter mon investissement sur le long terme et contribuer au développement de l’unité.
+
+<hr>
+
+<h2 class="orange">EXPÉRIENCE & IMPLICATION</h2>
+
+Durant mon parcours au sein du LSMC, j’ai toujours cherché à être présent, sérieux et volontaire. J’accorde une grande importance au travail d’équipe, à la communication ainsi qu’à l’image que renvoie une unité spécialisée.
+
+Mon objectif n’est pas seulement d’intégrer la M.A.R.U mais également d’aider à son évolution et accompagner ses membres.
 
 <hr>
 
 <h2 class="orange">OBJECTIF</h2>
 
-Mon objectif est de participer activement au développement de la M.A.R.U, accompagner les membres et devenir un élément fiable au sein de l’unité.
+Mon objectif est de participer activement au développement de la M.A.R.U, accompagner les membres, transmettre des connaissances et devenir un élément fiable au sein de cette unité.
+
+<hr>
+
+<div class="center">
+
+<i>
+"Le secours en terrain difficile demande plus que des compétences : il demande de l'engagement."
+</i>
+
+</div>
+
+<div class="footer">
+
+LSMC • M.A.R.U • Andrew Scott
+
+</div>
 
 </div>
 
