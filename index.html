@@ -1,37 +1,42 @@
-<html>
+<!DOCTYPE html>
+<html lang="fr">
 
 <head>
+<meta charset="UTF-8">
+<title>Andrew Scott — M.A.R.U</title>
+
 <style>
 
 body{
 margin:0;
 padding:40px;
-font-family:Arial;
-background:linear-gradient(to bottom,#351700,#000);
+background:#120900;
+font-family:Arial,sans-serif;
 color:white;
+min-height:100vh;
 }
 
 .box{
 max-width:1100px;
 margin:auto;
-background:#050505;
-padding:30px;
+background:#0d0d0d;
+padding:35px;
 border-radius:30px;
-box-shadow:0 0 40px rgba(255,140,0,0.6);
+box-shadow:0 0 50px rgba(255,140,0,.35);
+}
+
+.header{
+text-align:center;
+margin-bottom:30px;
 }
 
 h1{
-font-size:72px;
+font-size:65px;
 margin:15px;
-text-align:center;
 }
 
 .orange{
-color:#ff9800;
-}
-
-.center{
-text-align:center;
+color:#ff9500;
 }
 
 hr{
@@ -39,40 +44,46 @@ border:1px solid #2a2a2a;
 margin:30px 0;
 }
 
-.grid{
+.flex{
 display:flex;
-gap:20px;
+gap:30px;
+align-items:flex-start;
 }
 
 .left{
 width:30%;
 }
 
-.left img{
+.photo{
 width:100%;
 border-radius:20px;
-border:2px solid orange;
+border:2px solid #ff9500;
 }
 
 .right{
 flex:1;
 }
 
-.row{
-background:#1a0d00;
-padding:14px;
-border-radius:10px;
-margin-bottom:10px;
-display:flex;
-justify-content:space-between;
+.info{
+margin-bottom:20px;
+line-height:1.8;
 }
 
 .badge{
 display:inline-block;
-padding:10px 18px;
-background:#9a5f00;
+background:#6e4200;
+padding:10px 15px;
 border-radius:999px;
 margin:5px;
+}
+
+.dispo{
+background:#1a1008;
+padding:12px;
+border-radius:12px;
+margin-bottom:10px;
+display:flex;
+justify-content:space-between;
 }
 
 .footer{
@@ -83,15 +94,16 @@ font-size:13px;
 }
 
 </style>
+
 </head>
 
 <body>
 
 <div class="box">
 
-<div class="center">
+<div class="header">
 
-<img src="logo-maru.png.png" width="90">
+<img src="logo-maru.png.png" width="100">
 
 <h1>ANDREW SCOTT</h1>
 
@@ -103,11 +115,11 @@ Candidature — Adjoint Responsable M.A.R.U 🏔️🚑
 
 <hr>
 
-<div class="grid">
+<div class="flex">
 
 <div class="left">
 
-<img src="Andrew M.A.R.U.png">
+<img src="Andrew M.A.R.U.png" class="photo">
 
 </div>
 
@@ -115,50 +127,25 @@ Candidature — Adjoint Responsable M.A.R.U 🏔️🚑
 
 <h2 class="orange">INFORMATIONS</h2>
 
+<div class="info">
+
 Nom : Scott<br>
 Prénom : Andrew<br>
 Âge : 26 ans<br>
 Ville : Los Santos<br>
-Poste visé : Adjoint Responsable M.A.R.U<br>
+Poste visé : Adjoint Responsable M.A.R.U
 
-<br>
+</div>
 
 <h2 class="orange">DISPONIBILITÉS</h2>
 
-<div class="row">
-Lundi
-<span>18h00 — 01h00</span>
-</div>
-
-<div class="row">
-Mardi
-<span>18h00 — 01h00</span>
-</div>
-
-<div class="row">
-Mercredi
-<span>18h00 — 01h00</span>
-</div>
-
-<div class="row">
-Jeudi
-<span>18h00 — 01h00</span>
-</div>
-
-<div class="row">
-Vendredi
-<span>18h00 — 04h00</span>
-</div>
-
-<div class="row">
-Samedi
-<span>11h00 — 03h00</span>
-</div>
-
-<div class="row">
-Dimanche
-<span>11h00 — 03h00</span>
-</div>
+<div class="dispo"><span>Lundi</span><span>18h00 — 01h00</span></div>
+<div class="dispo"><span>Mardi</span><span>18h00 — 01h00</span></div>
+<div class="dispo"><span>Mercredi</span><span>18h00 — 01h00</span></div>
+<div class="dispo"><span>Jeudi</span><span>18h00 — 01h00</span></div>
+<div class="dispo"><span>Vendredi</span><span>18h00 — 04h00</span></div>
+<div class="dispo"><span>Samedi</span><span>11h00 — 03h00</span></div>
+<div class="dispo"><span>Dimanche</span><span>11h00 — 03h00</span></div>
 
 <h2 class="orange">COMPÉTENCES</h2>
 
@@ -178,38 +165,46 @@ Dimanche
 
 <h2 class="orange">POURQUOI LA M.A.R.U ?</h2>
 
-Je suis une personne sérieuse, investie et impliquée dans chaque responsabilité qui m'est confiée. L'unité M.A.R.U représente pour moi une structure exigeante demandant rigueur, organisation et esprit d’équipe.
+Depuis quelque temps, l’unité M.A.R.U attire particulièrement mon attention. Son domaine d’intervention demande sérieux, rigueur et un véritable esprit d’équipe.
 
-J’avais remarqué les précédentes ouvertures de postes sans avoir eu l’occasion de me présenter. Aujourd’hui, je souhaite saisir cette opportunité afin d’apporter mon investissement sur le long terme et contribuer au développement de l’unité.
+Je n’avais malheureusement pas eu l’occasion de présenter ma candidature lors des précédentes ouvertures de postes, mais aujourd’hui je souhaite tenter ma chance. Je pense pouvoir apporter quelque chose à l’unité grâce à mon implication, ma présence et mon envie de m’investir sur le long terme.
+
+<hr>
+
+<h2 class="orange">MOTIVATION</h2>
+
+Ce qui me motive particulièrement, c’est la possibilité d’obtenir un poste à responsabilité au sein de cette unité et pouvoir épauler la responsable qui gère aujourd’hui la M.A.R.U avec sérieux et investissement.
+
+J’ai sincèrement envie de m’investir, apporter ma pierre à l’édifice et participer à l’évolution de cette unité sur le long terme.
+
+Être à l’écoute des membres ainsi que des instructeurs est quelque chose d’important pour moi, car selon moi une bonne communication et une présence auprès de l’équipe restent la base d’une unité solide.
 
 <hr>
 
 <h2 class="orange">EXPÉRIENCE & IMPLICATION</h2>
 
-Durant mon parcours au sein du LSMC, j’ai toujours cherché à être présent, sérieux et volontaire. J’accorde une grande importance au travail d’équipe, à la communication ainsi qu’à l’image que renvoie une unité spécialisée.
+Durant mon parcours au sein du LSMC, j’ai toujours essayé d’être présent et impliqué dans ce que j’entreprends. J’accorde beaucoup d’importance au travail d’équipe, à la communication et à l’image qu’une unité renvoie.
 
-Mon objectif n’est pas seulement d’intégrer la M.A.R.U mais également d’aider à son évolution et accompagner ses membres.
+Je préfère apprendre, progresser et évoluer avec les personnes qui m’entourent plutôt que vouloir aller trop vite. Selon moi, c’est comme ça qu’on construit quelque chose de sérieux sur le long terme.
 
 <hr>
 
 <h2 class="orange">OBJECTIF</h2>
 
-Mon objectif est de participer activement au développement de la M.A.R.U, accompagner les membres, transmettre des connaissances et devenir un élément fiable au sein de cette unité.
+Mon objectif n’est pas seulement d’intégrer la M.A.R.U. Je souhaite aussi participer à son développement, accompagner les membres si besoin et devenir quelqu’un sur qui l’on peut compter avec le temps.
+
+Je souhaite évoluer au sein de cette unité avec sérieux, investissement et continuer à apporter ma contribution à son évolution.
 
 <hr>
 
-<div class="center">
-
+<center>
 <i>
-"Le secours en terrain difficile demande plus que des compétences : il demande de l'engagement."
+"Le terrain difficile ne demande pas seulement des compétences, mais aussi de l’investissement et de la confiance."
 </i>
-
-</div>
+</center>
 
 <div class="footer">
-
 LSMC • M.A.R.U • Andrew Scott
-
 </div>
 
 </div>
